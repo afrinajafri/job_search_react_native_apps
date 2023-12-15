@@ -10,14 +10,15 @@ const Home = () => {
     
     return(
     <SafeAreaView style = {{flex: 1, backgoundColor: COLORS.lightWhite }}>  
-            <Stack.Screen options={{
+            <Stack.Screen 
+            options={{
                 headerStyle: { backgroundColor: COLORS.lightWhite },
                 headerShadowVisible: false,
                 headerLeft: () => (
                     <ScreenHeaderBtn iconUrl={icons.menu} dimension="60%"/>
                 ),
                 headerRight: () => (
-                    <ScreenHeaderBtn iconUrl={icons.profile} dimension="100%"/>
+                    <ScreenHeaderBtn iconUrl={images.profile} dimension="100%"/>
                 ),
                 headerTitle: ""
 
@@ -41,7 +42,7 @@ const Home = () => {
                     </Popularjobs>
 
                     <Nearbyjobs>
-                        
+
                     </Nearbyjobs>
 
 
