@@ -5,9 +5,11 @@ import styles from './popularjobcard.style'
 
 const PopularJobCard = () => {
   return (
-    <View>
-      <Text>PopularJobCard</Text>
-    </View>
+  //  <TouchableOpacity 
+  //  style = {styles.container(selectedJob, item) 
+  //  }> 
+  //  </TouchableOpacity>
+  <Text>hey</Text>
   )
 }
 
